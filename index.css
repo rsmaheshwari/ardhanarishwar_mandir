@@ -104,13 +104,13 @@ button , link{
 	
 }
 
-@media(max-width: 768px){
+@media(max-width: 480px){
 	.main{
 		font-size: 70%;
 		display: flex;
 		flex-direction: column;
 	}
 
-	
+
 }
 
