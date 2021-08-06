@@ -1,0 +1,116 @@
+html{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-height: 205rem;
+	min-height: 150rem;
+	max-width: 275rem;
+	min-width: 85rem;
+	
+
+}
+button , link{
+	cursor: pointer;
+}
+
+.main{
+	width: 85rem;	
+	font-size: 100%;
+	}
+
+.title_bar{
+	position : relative;
+	height : 5rem;
+	width:83rem;
+	border:1px solid black;
+	min-width: 85rem;
+}
+
+.language{
+	position : relative;
+	float: left;
+	height: 5rem;
+	width : 12rem;
+	border : 1px solid black;
+}
+
+.font_size{
+	position : relative;
+	float : left;
+	height : 5rem;
+	width : 8rem;
+	border:1px solid black;
+}
+
+.logo{
+	position : relative;
+	float: left;
+	height: 5rem;
+	width : 12rem;
+	border:1px solid black;
+	
+}
+
+.mandir_name{
+	position : relative;
+	float: left;
+	height : 5rem;
+	width : 50rem;
+	border:1px solid black;
+	text-align: center;
+	font-family: times-new-roman;
+}
+.btn{
+	position : relative;
+	display : inline-block;
+	height : 3rem ;
+	width : 2rem;
+}
+
+.bar1 , .bar2 , .bar3{
+	position: relative;
+	height: .25rem;
+	width: 1.6rem;
+	background-color: black ;
+	margin: .3rem;
+
+}
+.menu_bar{
+	position: relative;
+	float: left;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+@media(max-width: 998px){
+	.main{
+		font-size: 80%;
+		
+
+	}
+
+	.title_bar{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.menu_bar{
+		display: inline-block;
+	}
+	
+	
+}
+
+@media(max-width: 768px){
+	.main{
+		font-size: 70%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	
+}
+
