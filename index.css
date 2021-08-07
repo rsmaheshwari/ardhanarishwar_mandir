@@ -106,11 +106,15 @@ button , link{
 	
 }
 
-@media(max-width: 480px){
+@media(max-width: 320px){
 	.main{
 		font-size: 70%;
 		display: flex;
 		flex-direction: column;
+	}
+	html{
+		width: 100%;
+		height: 100%;
 	}
 
 
