@@ -3,7 +3,7 @@ html{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 100%;
+	width: device-width;
 	height: 100%;
 	
 	max-height: 205rem;
@@ -12,6 +12,9 @@ html{
 	min-width: 85rem;
 	
 
+}
+body{
+	width: 100vw;
 }
 button , link{
 	cursor: pointer;
@@ -112,9 +115,8 @@ button , link{
 		display: flex;
 		flex-direction: column;
 	}
-	body{
-		width:320px;
-	}
+
+	
 
 
 }
